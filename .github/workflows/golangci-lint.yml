@@ -3,8 +3,8 @@ name: golangci-lint
 on:
   push:
   pull_request:
-  schedule:
-    - cron: '*/55 * * * 1-5'
+#  schedule:
+#    - cron: '*/55 * * * 1-5'
 
 permissions:  
   contents: read
